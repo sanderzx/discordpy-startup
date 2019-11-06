@@ -1,0 +1,3 @@
+if message.content == "dice":
+    dice = random.randint(1, 100) #出る目を指定
+    await message.send_message(message.channel, str(dice))
